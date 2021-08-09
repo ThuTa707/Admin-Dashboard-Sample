@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&family=Padauk:wght@400;700&display=swap');
+
+// Variables
+// @import 'variables';
+
+
+$font-family-sans-serif: 'Noto Sans JP','Padauk', sans-serif;
+$primary : #482ff7;
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import url('mystyle.css');
+@import url('feather-icons-web/feather.css');
+@import url("~@fortawesome/fontawesome-free/css/all.min.css");
+$swal2-confirm-button-background-color: $primary;
+@import '~sweetalert2/src/sweetalert2.scss';
+
